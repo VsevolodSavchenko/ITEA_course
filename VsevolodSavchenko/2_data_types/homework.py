@@ -34,13 +34,13 @@ print(type(my_dict))
 my_set = set()
 my_set.add(1)
 my_set.add(2)
-print (my_set)
+print(my_set)
 print(type(my_set))
 # add type bool
 my_bool = 11
 print(my_bool <= 1)
-print (my_bool >= 1)
-print (type (my_bool <= 1))
+print(my_bool >= 1)
+print(type (my_bool <= 1))
 # use input
 user_input_name = input("Enter your first name:")
 user_input_surname = input("Enter your last name:")
@@ -48,15 +48,15 @@ user_input_phone = input("Enter your phone number:")
 user_input_group = input("Enter your group:")
 user_input_wishes = input("Enter your wishes for improvement:")
 # use output + arithmetic operator
-print ("student", user_input_name+user_input_surname, "phone number", user_input_phone, "group", user_input_group, "wish", user_input_wishes)
+print("student", user_input_name+user_input_surname, "phone number", user_input_phone, "group", user_input_group, "wish", user_input_wishes)
 # use assignment operators
 a = 10
 b = 2
 a //= b
-print (a)
+print(a)
 
 # use string formatting
-print ("%.3s" % "let's try!")
+print("%.3s" % "let's try!")
 
 #######################################
 ##########homework
@@ -81,5 +81,3 @@ result = ((first_price*10)/100) #math result
 print(int(result))
 # finish car result
 print("Your car is:", user_input_color, user_input_brand, user_input_model, user_input_year, user_input_engvol, user_input_odometer)
-
-
